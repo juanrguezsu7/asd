@@ -150,3 +150,6 @@ Almacena una string que depende de si m_score es mayor que n_score (s = "m wins!
 ******
 ### Pregunta 75: ¿Qué significado tiene el condicional como predicado? *puts "You lose" if y_score < 10*
 La sentencia de su izquierda se evalúa solamente si el predicado es true. Si y_score fuese menor que 10, se imprimirá por pantalla "You lose", en cualquier otro caso, no se imprime nada.
+******
+### Pregunta 76: ¿Es obligatorio el uso de la palabra reservada then?
+No, es prescindible.
