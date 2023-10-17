@@ -161,3 +161,6 @@ Se ejecuta una sola vez sin entrar al while porque el valor de i ya es de por s�
 ******
 ### Pregunta 79: ¿Cuántas veces se ejecuta el siguiente código?
 Se ejecuta 10 veces.
+******
+### Pregunta 80: ¿Qué hace la siguiente sentencia?
+La sentencia ejecuta tres veces "Small number detected!" mientras n sea menor que 3 y cuando llega a 3 se produce un bucle infinito porque la sentencia *next* omite el incremento de n y el *break* para salir del bucle y, por tanto, nunca se llega a la condición de salida del bucle (*n <= 4*).
