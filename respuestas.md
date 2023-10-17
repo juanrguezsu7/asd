@@ -147,3 +147,6 @@ Ambas son iguales y crean un hash asociativo vacío.
 El metacaracter \w casa con todas las palabras usando como separadores los espacios, puntos y comas entre otros. Por tanto, devuelve *["hello", "world", "hello", "LPP"]*.
 ### Pregunta 74: ¿Qué almacena la variable s?
 Almacena una string que depende de si m_score es mayor que n_score (s = "m wins!"), si es menor (s = "n wins!") o si son iguales (s = "Tie!").
+******
+### Pregunta 75: ¿Qué significado tiene el condicional como predicado? *puts "You lose" if y_score < 10*
+La sentencia de su izquierda se evalúa solamente si el predicado es true. Si y_score fuese menor que 10, se imprimirá por pantalla "You lose", en cualquier otro caso, no se imprime nada.
