@@ -155,3 +155,6 @@ La sentencia de su izquierda se evalúa solamente si el predicado es true. Si y_
 No, es prescindible.
 ### Pregunta 77: ¿Qué devuelve la evaluación de la sentencia while?
 Devuelve nil.
+******
+### Pregunta 78: ¿Cuántas veces se ejecuta i = 10 i += 1 while i < 10?
+Se ejecuta una sola vez sin entrar al while porque el valor de i ya es de por sí mayor o igual que 10.
