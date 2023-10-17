@@ -153,3 +153,5 @@ La sentencia de su izquierda se evalúa solamente si el predicado es true. Si y_
 ******
 ### Pregunta 76: ¿Es obligatorio el uso de la palabra reservada then?
 No, es prescindible.
+### Pregunta 77: ¿Qué devuelve la evaluación de la sentencia while?
+Devuelve nil.
