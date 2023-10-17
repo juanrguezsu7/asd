@@ -158,3 +158,6 @@ Devuelve nil.
 ******
 ### Pregunta 78: ¿Cuántas veces se ejecuta i = 10 i += 1 while i < 10?
 Se ejecuta una sola vez sin entrar al while porque el valor de i ya es de por sí mayor o igual que 10.
+******
+### Pregunta 79: ¿Cuántas veces se ejecuta el siguiente código?
+Se ejecuta 10 veces.
