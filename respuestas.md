@@ -82,3 +82,66 @@ Queda un array de esta forma *[0, 2, 4]*.
 - a << [4, 5, 6] -> [1, 2, 3, [4, 5, 6]]
 - a.concat [7, 8] -> [1, 2, 3, [4, 5, 6], 7, 8]
 ******
+### Pregunta 63: ¿Cuál es el resultado de cada una de estas operaciones?
+- c = a | b -> [1, 2, 3, 4, 5]
+- d = b | a -> [5, 4, 3, 2, 1]
+- e = a & b -> [2, 3, 4]
+- f = b & a -> [4, 3, 2]
+******
+### Pregunta 64: ¿Qué resultados dan las siguientes operaciones?
+- a.to_a -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+- b.to_a -> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+- b.include? 10 -> false
+- b.include? 8 -> true
+- b.step(2) {|x| print "#{x} " } -> 1 3 5 7 9 => 1...10
+- 1..3.to_a -> NoMethodError: undefined method 'to_a' for 3:Integer (se arregla poniendo (1..3).to_a y devuelve [1, 2, 3])
+******
+### Pregunta 65: ¿Qué resultados dan las siguientes operaciones? 
+- r.member? 50 -> true
+- r.include? 99.9 -> true
+- r.member? 99.9 -> true
+******
+### Pregunta 66: ¿Qué resultados dan las siguientes operaciones? 
+- true.class -> TrueClass
+- false.class -> FalseClass
+- puts "hello" if 0 -> hello
+- puts "hello" if nil -> (nada)
+- puts "hello" if "" -> hello
+******
+### Pregunta 67: ¿Qué resultados dan las siguientes operaciones?
+- x.class -> Symbol
+- x == 'sym' -> false
+- x == :sym -> true
+- z.class -> Symbol
+- x == 'sym'.to_sym -> true
+- x.to_s == 'sym' -> true
+******
+### Pregunta 68: ¿Qué resultados se dan?
+- t = s -> "Ruby"
+- t[-1] = "" -> ""
+- print s -> Rub
+- t = "Java" -> "Java"
+- print s, t -> RubJava
+******
+### Pregunta 69: ¿Cuál es el resultado?
+- "%d %s" % [3, "rubies"] -> "3 rubies"
+******
+### Pregunta 70: ¿Cuáles son los resultados?
+- x, y = 4, 5 -> [4, 5]
+- z = x > y ? x : y -> 5
+- x,y,z = [1,2,3] -> [1, 2, 3]
+******
+### Pregunta 71: ¿Qué resultados dan las siguientes operaciones?
+- x.keys -> [:a, :b]
+- x.values -> [1 ,2]
+- x -> {:a=>1, :b=>2, :c=>3}
+- x -> {:a=>1, :b=>2, :c=>3}
+- x -> {:b=>2, :c=>3}
+- x.delete_if { |k, v| v % 2 == 0 } -> {:a=>1}
+- x -> {:a=>1}
+******
+### Pregunta 72: ¿Qué hace la siguiente sentencia? *counts = Hash.new(0)* ¿Qué diferencia hay con la asignación *counts = {}*?
+Ambas son iguales y crean un hash asociativo vacío.
+******
+### Pregunta 73: ¿Qué retorna esta expresión regular? *'hello world, hello LPP'.scan /\w+/*
+El metacaracter \w casa con todas las palabras usando como separadores los espacios, puntos y comas entre otros. Por tanto, devuelve *["hello", "world", "hello", "LPP"]*.
