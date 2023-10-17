@@ -145,3 +145,5 @@ Ambas son iguales y crean un hash asociativo vacío.
 ******
 ### Pregunta 73: ¿Qué retorna esta expresión regular? *'hello world, hello LPP'.scan /\w+/*
 El metacaracter \w casa con todas las palabras usando como separadores los espacios, puntos y comas entre otros. Por tanto, devuelve *["hello", "world", "hello", "LPP"]*.
+### Pregunta 74: ¿Qué almacena la variable s?
+Almacena una string que depende de si m_score es mayor que n_score (s = "m wins!"), si es menor (s = "n wins!") o si son iguales (s = "Tie!").
